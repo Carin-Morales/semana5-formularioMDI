@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "semana5-formularioMDI", "semana5-formularioMDI.csproj", "{8AA0D8A2-75A5-4FA2-922A-DF5F3C6EB150}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AA0D8A2-75A5-4FA2-922A-DF5F3C6EB150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA0D8A2-75A5-4FA2-922A-DF5F3C6EB150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA0D8A2-75A5-4FA2-922A-DF5F3C6EB150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA0D8A2-75A5-4FA2-922A-DF5F3C6EB150}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C6B95F5-D720-4E95-92F8-F7BA92CFF4E6}
+	EndGlobalSection
+EndGlobal

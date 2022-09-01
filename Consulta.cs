@@ -26,5 +26,10 @@ namespace semana5_formularioMDI
         {
             MessageBox.Show("Datos enviados", "Registro de datos", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

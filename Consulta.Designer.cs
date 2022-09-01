@@ -49,7 +49,7 @@ namespace semana5_formularioMDI
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(444, 336);
+            this.button2.Location = new System.Drawing.Point(519, 336);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(143, 42);
             this.button2.TabIndex = 1;
@@ -60,26 +60,27 @@ namespace semana5_formularioMDI
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(85, 56);
+            this.label1.Font = new System.Drawing.Font("Segoe UI Variable Text Light", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(135, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(263, 26);
+            this.label1.Size = new System.Drawing.Size(244, 26);
             this.label1.TabIndex = 2;
             this.label1.Text = "Descripcion de la consulta";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(80, 111);
+            this.textBox1.Location = new System.Drawing.Point(140, 106);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(373, 174);
+            this.textBox1.Size = new System.Drawing.Size(454, 174);
             this.textBox1.TabIndex = 3;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Consulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(203)))), ((int)(((byte)(211)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);

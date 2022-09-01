@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace semana5_formularioMDI
 {
-    public partial class Form1 : Form
+    public partial class Principal : Form
     {
-        public Form1()
+        public Principal()
         {
             InitializeComponent();
         }
@@ -36,7 +36,7 @@ namespace semana5_formularioMDI
 
         private void docenteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Docente docente = new Docente();
+            Carreras docente = new Carreras();
             this.Hide();
             docente.ShowDialog();
             this.Show();
@@ -44,7 +44,7 @@ namespace semana5_formularioMDI
 
         private void asignaturasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Asignatura asig = new Asignatura();
+            Institucional asig = new Institucional();
             this.Hide();
             asig.ShowDialog();
             this.Show();
@@ -65,11 +65,13 @@ namespace semana5_formularioMDI
             this.Hide();   //Ocultamos el formulario actual 
             alumno.ShowDialog();
             this.Show();
+
         }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Docente docente = new Docente();
+            Carreras docente = new Carreras();
             this.Hide();
             docente.ShowDialog();
             this.Show();
@@ -77,7 +79,7 @@ namespace semana5_formularioMDI
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Asignatura asig = new Asignatura();
+            Institucional asig = new Institucional();
             this.Hide();
             asig.ShowDialog();
             this.Show();
@@ -107,6 +109,11 @@ namespace semana5_formularioMDI
             this.Hide();
             ay.ShowDialog();
             this.Show();
+        }
+
+        private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

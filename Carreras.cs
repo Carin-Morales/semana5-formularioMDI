@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace semana5_formularioMDI
 {
-    public partial class Docente : Form
+    public partial class Carreras : Form
     {
-        public Docente()
+        public Carreras()
         {
             InitializeComponent();
         }

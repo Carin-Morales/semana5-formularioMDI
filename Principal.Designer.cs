@@ -225,7 +225,7 @@ namespace semana5_formularioMDI
             this.ForeColor = System.Drawing.Color.Black;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Principal";
-            this.Text = "Form1";
+            this.Text = "REGISTRO ACADEMICO";
             this.TransparencyKey = System.Drawing.Color.Transparent;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

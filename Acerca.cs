@@ -17,7 +17,9 @@ namespace semana5_formularioMDI
             InitializeComponent();
         }
 
-        
-        
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -38,7 +38,8 @@ namespace semana5_formularioMDI
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(130, 336);
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.Location = new System.Drawing.Point(85, 301);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(143, 42);
             this.button1.TabIndex = 0;
@@ -49,7 +50,8 @@ namespace semana5_formularioMDI
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(519, 336);
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button2.Location = new System.Drawing.Point(336, 301);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(143, 42);
             this.button2.TabIndex = 1;
@@ -61,7 +63,8 @@ namespace semana5_formularioMDI
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Variable Text Light", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(135, 65);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label1.Location = new System.Drawing.Point(57, 51);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(244, 26);
             this.label1.TabIndex = 2;
@@ -69,7 +72,7 @@ namespace semana5_formularioMDI
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(140, 106);
+            this.textBox1.Location = new System.Drawing.Point(53, 94);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(454, 174);
@@ -81,7 +84,8 @@ namespace semana5_formularioMDI
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::semana5_formularioMDI.Properties.Resources.mm;
+            this.ClientSize = new System.Drawing.Size(578, 400);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);

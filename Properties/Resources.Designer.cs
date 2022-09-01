@@ -163,9 +163,29 @@ namespace semana5_formularioMDI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mm {
+            get {
+                object obj = ResourceManager.GetObject("mm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ordenador_portatil {
             get {
                 object obj = ResourceManager.GetObject("ordenador-portatil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plan_de_estudios {
+            get {
+                object obj = ResourceManager.GetObject("plan-de-estudios", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +226,16 @@ namespace semana5_formularioMDI.Properties {
         internal static System.Drawing.Bitmap Student_id_357581 {
             get {
                 object obj = ResourceManager.GetObject("Student-id_357581", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap univercidads {
+            get {
+                object obj = ResourceManager.GetObject("univercidads", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

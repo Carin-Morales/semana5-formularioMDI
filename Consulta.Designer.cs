@@ -33,6 +33,8 @@ namespace semana5_formularioMDI
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -40,7 +42,7 @@ namespace semana5_formularioMDI
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
             this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(85, 301);
+            this.button1.Location = new System.Drawing.Point(76, 301);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(143, 42);
             this.button1.TabIndex = 0;
@@ -53,7 +55,7 @@ namespace semana5_formularioMDI
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
             this.button2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(336, 301);
+            this.button2.Location = new System.Drawing.Point(320, 301);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(143, 42);
             this.button2.TabIndex = 1;
@@ -66,7 +68,7 @@ namespace semana5_formularioMDI
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(57, 51);
+            this.label1.Location = new System.Drawing.Point(58, 122);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(240, 24);
             this.label1.TabIndex = 2;
@@ -74,12 +76,38 @@ namespace semana5_formularioMDI
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(53, 94);
+            this.textBox1.Location = new System.Drawing.Point(62, 165);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(454, 174);
+            this.textBox1.Size = new System.Drawing.Size(454, 130);
             this.textBox1.TabIndex = 3;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "",
+            "Tecnico en Contaduria Publica ",
+            "Tecnico en Enfermeria ",
+            "Tecnico en Ingenieria Civil y Construccion",
+            "Tecnico en Mercadeo y Ventas ",
+            "Tecnico en Ingeniria en Sistemas y Redes Informaticas ",
+            "Tecnico Bilingue Ingles Español"});
+            this.comboBox1.Location = new System.Drawing.Point(62, 87);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(265, 21);
+            this.comboBox1.TabIndex = 4;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(57, 57);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(229, 24);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Consulta de una carrera ";
             // 
             // Consulta
             // 
@@ -87,6 +115,8 @@ namespace semana5_formularioMDI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(578, 400);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
@@ -106,5 +136,7 @@ namespace semana5_formularioMDI
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label2;
     }
 }

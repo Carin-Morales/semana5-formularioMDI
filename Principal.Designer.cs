@@ -41,7 +41,6 @@ namespace semana5_formularioMDI
             this.materiasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignaturasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
@@ -53,9 +52,9 @@ namespace semana5_formularioMDI
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
             this.button1.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(27, 61);
+            this.button1.Location = new System.Drawing.Point(27, 45);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(178, 52);
+            this.button1.Size = new System.Drawing.Size(142, 62);
             this.button1.TabIndex = 0;
             this.button1.Text = "NUEVO INGRESO ";
             this.button1.UseVisualStyleBackColor = false;
@@ -66,9 +65,9 @@ namespace semana5_formularioMDI
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
             this.button2.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(27, 119);
+            this.button2.Location = new System.Drawing.Point(27, 113);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(178, 52);
+            this.button2.Size = new System.Drawing.Size(142, 65);
             this.button2.TabIndex = 1;
             this.button2.Text = "CARRERAS";
             this.button2.UseVisualStyleBackColor = false;
@@ -79,9 +78,9 @@ namespace semana5_formularioMDI
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
             this.button3.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(27, 177);
+            this.button3.Location = new System.Drawing.Point(27, 184);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(178, 52);
+            this.button3.Size = new System.Drawing.Size(142, 65);
             this.button3.TabIndex = 2;
             this.button3.Text = "INSTITUCIONAL ";
             this.button3.UseVisualStyleBackColor = false;
@@ -92,9 +91,9 @@ namespace semana5_formularioMDI
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
             this.button4.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(27, 235);
+            this.button4.Location = new System.Drawing.Point(27, 255);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(178, 52);
+            this.button4.Size = new System.Drawing.Size(142, 68);
             this.button4.TabIndex = 3;
             this.button4.Text = "CONSULTAS";
             this.button4.UseVisualStyleBackColor = false;
@@ -105,9 +104,9 @@ namespace semana5_formularioMDI
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
             this.button5.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(27, 293);
+            this.button5.Location = new System.Drawing.Point(27, 329);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(178, 52);
+            this.button5.Size = new System.Drawing.Size(142, 67);
             this.button5.TabIndex = 4;
             this.button5.Text = "SALIR";
             this.button5.UseVisualStyleBackColor = false;
@@ -120,7 +119,6 @@ namespace semana5_formularioMDI
             this.inicioToolStripMenuItem,
             this.materiasToolStripMenuItem,
             this.consultaToolStripMenuItem,
-            this.acercaDeToolStripMenuItem,
             this.ayudaToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -145,7 +143,7 @@ namespace semana5_formularioMDI
             this.alumnoToolStripMenuItem.Image = global::semana5_formularioMDI.Properties.Resources.ordenador_portatil;
             this.alumnoToolStripMenuItem.Name = "alumnoToolStripMenuItem";
             this.alumnoToolStripMenuItem.RightToLeftAutoMirrorImage = true;
-            this.alumnoToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.alumnoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.alumnoToolStripMenuItem.Text = "Nuevo Ingreso";
             this.alumnoToolStripMenuItem.Click += new System.EventHandler(this.alumnoToolStripMenuItem_Click);
             // 
@@ -153,7 +151,7 @@ namespace semana5_formularioMDI
             // 
             this.docenteToolStripMenuItem.Image = global::semana5_formularioMDI.Properties.Resources.libro;
             this.docenteToolStripMenuItem.Name = "docenteToolStripMenuItem";
-            this.docenteToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.docenteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.docenteToolStripMenuItem.Text = "Carreras";
             this.docenteToolStripMenuItem.Click += new System.EventHandler(this.docenteToolStripMenuItem_Click);
             // 
@@ -183,14 +181,6 @@ namespace semana5_formularioMDI
             this.consultaToolStripMenuItem.Text = "Consulta";
             this.consultaToolStripMenuItem.Click += new System.EventHandler(this.consultaToolStripMenuItem_Click);
             // 
-            // acercaDeToolStripMenuItem
-            // 
-            this.acercaDeToolStripMenuItem.Image = global::semana5_formularioMDI.Properties.Resources.acerca_de;
-            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
-            this.acercaDeToolStripMenuItem.Text = "Acerca de";
-            this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
-            // 
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.Checked = true;
@@ -219,7 +209,6 @@ namespace semana5_formularioMDI
             this.label1.Size = new System.Drawing.Size(327, 42);
             this.label1.TabIndex = 7;
             this.label1.Text = "Universidad Digital";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Principal
             // 
@@ -262,7 +251,6 @@ namespace semana5_formularioMDI
         private System.Windows.Forms.ToolStripMenuItem materiasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem asignaturasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.Label label1;

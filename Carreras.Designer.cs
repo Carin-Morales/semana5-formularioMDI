@@ -54,7 +54,7 @@ namespace semana5_formularioMDI
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
+            this.button2.BackColor = System.Drawing.Color.AliceBlue;
             this.button2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(400, 343);
             this.button2.Name = "button2";
@@ -66,7 +66,7 @@ namespace semana5_formularioMDI
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
+            this.button1.BackColor = System.Drawing.Color.AliceBlue;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(181, 343);
             this.button1.Name = "button1";
@@ -142,6 +142,7 @@ namespace semana5_formularioMDI
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(259, 21);
             this.comboBox3.TabIndex = 32;
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox3_SelectedIndexChanged);
             // 
             // Carreras
             // 

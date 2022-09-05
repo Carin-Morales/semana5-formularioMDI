@@ -95,14 +95,7 @@ namespace semana5_formularioMDI
             Close();
         }
 
-        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            De acerca = new De();
-            this.Hide();
-            acerca.ShowDialog();
-            this.Show();
-        }
-
+       
         private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ayuda ay = new Ayuda();
@@ -121,9 +114,6 @@ namespace semana5_formularioMDI
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

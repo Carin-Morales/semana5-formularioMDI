@@ -104,7 +104,7 @@ namespace semana5_formularioMDI
 
         private void okButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Datos enviados", "Registro de datos", MessageBoxButtons.OK, MessageBoxIcon.Information); 
+            Close();
         }
     }
 }

@@ -40,12 +40,12 @@ namespace semana5_formularioMDI
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(261, 28);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(286, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(277, 25);
+            this.label1.Size = new System.Drawing.Size(201, 24);
             this.label1.TabIndex = 24;
-            this.label1.Text = "FILOSOFIA INSTITUCIONAL";
+            this.label1.Text = "Filosofia Institucional";
             // 
             // textBox1
             // 
@@ -67,42 +67,45 @@ namespace semana5_formularioMDI
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(159)))), ((int)(((byte)(203)))));
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(175, 87);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(136, 31);
             this.button3.TabIndex = 27;
-            this.button3.Text = "MISION";
+            this.button3.Text = "Mision";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(159)))), ((int)(((byte)(203)))));
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
+            this.button4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(470, 87);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(110, 31);
             this.button4.TabIndex = 28;
-            this.button4.Text = "VISION";
+            this.button4.Text = "Vision";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(332, 361);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 31);
             this.button1.TabIndex = 29;
             this.button1.Text = "CERRAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Institucional
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::semana5_formularioMDI.Properties.Resources.logo;
+            this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
@@ -113,6 +116,7 @@ namespace semana5_formularioMDI
             this.Controls.Add(this.label1);
             this.Name = "Institucional";
             this.Text = "Filosofia institucional";
+            this.Load += new System.EventHandler(this.Institucional_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

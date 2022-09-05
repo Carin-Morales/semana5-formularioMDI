@@ -35,5 +35,10 @@ namespace semana5_formularioMDI
         {
             Close();
         }
+
+        private void Institucional_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

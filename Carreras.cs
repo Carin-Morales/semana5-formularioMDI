@@ -26,5 +26,10 @@ namespace semana5_formularioMDI
         {
             MessageBox.Show("Datos enviados", "Registro de datos", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void Carreras_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -34,9 +34,9 @@ namespace semana5_formularioMDI
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label3
@@ -99,42 +99,22 @@ namespace semana5_formularioMDI
             this.label1.TabIndex = 14;
             this.label1.Text = "Carreras Virtuales";
             // 
-            // listBox1
+            // comboBox1
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "",
-            "Licenciatura en Administraciòn de Empresas",
-            "Licenciatura en mercado",
-            "Licenciatura en Ciencias Juridicas ",
-            "Licenciatura en Psicologia ",
-            "Licenciatura en Enfermeria ",
-            "Licenciatura en Idioma Ingles "});
-            this.listBox1.Location = new System.Drawing.Point(71, 89);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(254, 17);
-            this.listBox1.TabIndex = 25;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Ingieneria en sistemas y redes informaticas",
+            "Linceciatura en enfermeria",
+            "Lincenciatura en el idioma ingles"});
+            this.comboBox1.Location = new System.Drawing.Point(67, 86);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(259, 21);
+            this.comboBox1.TabIndex = 30;
             // 
-            // listBox2
+            // comboBox2
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Items.AddRange(new object[] {
-            "",
-            "Tecnico en Contaduria Publica ",
-            "Tecnico en Enfermeria ",
-            "Tecnico en Ingenieria Civil y Construccion",
-            "Tecnico en Mercadeo y Ventas ",
-            "Tecnico en Ingeniria en Sistemas y Redes Informaticas ",
-            "Tecnico Bilingue Ingles Español"});
-            this.listBox2.Location = new System.Drawing.Point(227, 253);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(254, 17);
-            this.listBox2.TabIndex = 27;
-            // 
-            // listBox3
-            // 
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.Items.AddRange(new object[] {
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
             "",
             "Ingenieria en Sistemas y Redes Informaticas ",
             "Ingenieria Industrial",
@@ -142,10 +122,26 @@ namespace semana5_formularioMDI
             "Licenciatura en Relaciones y Negocios Internacionales",
             "Licenciatura en Administracion de empresas Turisticas",
             "Licenciatura en Comunicacion institucional y Periodismo"});
-            this.listBox3.Location = new System.Drawing.Point(381, 89);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(283, 17);
-            this.listBox3.TabIndex = 28;
+            this.comboBox2.Location = new System.Drawing.Point(382, 86);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(259, 21);
+            this.comboBox2.TabIndex = 31;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "",
+            "Tecnico en Contaduria Publica ",
+            "Tecnico en Enfermeria ",
+            "Tecnico en Ingenieria Civil y Construccion",
+            "Tecnico en Mercadeo y Ventas ",
+            "Tecnico en Ingeniria en Sistemas y Redes Informaticas ",
+            "Tecnico Bilingue Ingles Español"});
+            this.comboBox3.Location = new System.Drawing.Point(218, 254);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(259, 21);
+            this.comboBox3.TabIndex = 32;
             // 
             // Carreras
             // 
@@ -153,16 +149,16 @@ namespace semana5_formularioMDI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(685, 406);
-            this.Controls.Add(this.listBox3);
-            this.Controls.Add(this.listBox2);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Carreras";
-            this.Text = "Docente";
+            this.Text = "PE7-Carreras";
             this.Load += new System.EventHandler(this.Carreras_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -175,8 +171,8 @@ namespace semana5_formularioMDI
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox3;
     }
 }

@@ -97,7 +97,7 @@ namespace semana5_formularioMDI
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Acerca acerca = new Acerca();
+            De acerca = new De();
             this.Hide();
             acerca.ShowDialog();
             this.Show();

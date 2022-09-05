@@ -44,6 +44,8 @@ namespace semana5_formularioMDI
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
+            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contactoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -143,7 +145,7 @@ namespace semana5_formularioMDI
             this.alumnoToolStripMenuItem.Image = global::semana5_formularioMDI.Properties.Resources.ordenador_portatil;
             this.alumnoToolStripMenuItem.Name = "alumnoToolStripMenuItem";
             this.alumnoToolStripMenuItem.RightToLeftAutoMirrorImage = true;
-            this.alumnoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.alumnoToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.alumnoToolStripMenuItem.Text = "Nuevo Ingreso";
             this.alumnoToolStripMenuItem.Click += new System.EventHandler(this.alumnoToolStripMenuItem_Click);
             // 
@@ -151,7 +153,7 @@ namespace semana5_formularioMDI
             // 
             this.docenteToolStripMenuItem.Image = global::semana5_formularioMDI.Properties.Resources.libro;
             this.docenteToolStripMenuItem.Name = "docenteToolStripMenuItem";
-            this.docenteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.docenteToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.docenteToolStripMenuItem.Text = "Carreras";
             this.docenteToolStripMenuItem.Click += new System.EventHandler(this.docenteToolStripMenuItem_Click);
             // 
@@ -185,6 +187,9 @@ namespace semana5_formularioMDI
             // 
             this.ayudaToolStripMenuItem.Checked = true;
             this.ayudaToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.acercaDeToolStripMenuItem,
+            this.contactoToolStripMenuItem});
             this.ayudaToolStripMenuItem.Image = global::semana5_formularioMDI.Properties.Resources.ayudar;
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
@@ -204,11 +209,22 @@ namespace semana5_formularioMDI
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(276, 36);
+            this.label1.Location = new System.Drawing.Point(280, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(327, 42);
+            this.label1.Size = new System.Drawing.Size(0, 42);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Universidad Digital";
+            // 
+            // acercaDeToolStripMenuItem
+            // 
+            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.acercaDeToolStripMenuItem.Text = "Acerca de ";
+            // 
+            // contactoToolStripMenuItem
+            // 
+            this.contactoToolStripMenuItem.Name = "contactoToolStripMenuItem";
+            this.contactoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.contactoToolStripMenuItem.Text = "Contacto";
             // 
             // Principal
             // 
@@ -229,6 +245,7 @@ namespace semana5_formularioMDI
             this.Name = "Principal";
             this.Text = "REGISTRO ACADEMICO";
             this.TransparencyKey = System.Drawing.Color.Transparent;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Principal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -254,6 +271,8 @@ namespace semana5_formularioMDI
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem contactoToolStripMenuItem;
     }
 }
 

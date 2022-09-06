@@ -83,9 +83,39 @@ namespace semana5_formularioMDI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bb {
+            get {
+                object obj = ResourceManager.GetObject("bb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cliente {
             get {
                 object obj = ResourceManager.GetObject("cliente", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap consultat {
+            get {
+                object obj = ResourceManager.GetObject("consultat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap facultadd {
+            get {
+                object obj = ResourceManager.GetObject("facultadd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +156,16 @@ namespace semana5_formularioMDI.Properties {
         internal static System.Drawing.Bitmap historia {
             get {
                 object obj = ResourceManager.GetObject("historia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_contat_us_10add_contact_4211837_115058 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder-contat-us-10add-contact-4211837_115058", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,6 +233,16 @@ namespace semana5_formularioMDI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap registroo {
+            get {
+                object obj = ResourceManager.GetObject("registroo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RN1 {
             get {
                 object obj = ResourceManager.GetObject("RN1", resourceCulture);
@@ -206,6 +256,16 @@ namespace semana5_formularioMDI.Properties {
         internal static System.Drawing.Bitmap salida_de_emergencia {
             get {
                 object obj = ResourceManager.GetObject("salida-de-emergencia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap salire {
+            get {
+                object obj = ResourceManager.GetObject("salire", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

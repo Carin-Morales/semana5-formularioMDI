@@ -20,7 +20,7 @@ namespace semana5_formularioMDI
         private void button4_Click(object sender, EventArgs e)
         {
             Consulta cons = new Consulta();
-            this.Hide();
+          
             cons.ShowDialog();
             this.Show();
         }
@@ -37,7 +37,7 @@ namespace semana5_formularioMDI
         private void docenteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Carreras docente = new Carreras();
-            this.Hide();
+         
             docente.ShowDialog();
             this.Show();
         }
@@ -45,7 +45,7 @@ namespace semana5_formularioMDI
         private void asignaturasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Institucional asig = new Institucional();
-            this.Hide();
+           
             asig.ShowDialog();
             this.Show();
         }
@@ -53,7 +53,7 @@ namespace semana5_formularioMDI
         private void consultaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Consulta cons = new Consulta();
-            this.Hide();
+            
             cons.ShowDialog();
             this.Show();
         }
@@ -72,7 +72,7 @@ namespace semana5_formularioMDI
         private void button2_Click(object sender, EventArgs e)
         {
             Carreras docente = new Carreras();
-            this.Hide();
+          
             docente.ShowDialog();
             this.Show();
         }
@@ -96,24 +96,30 @@ namespace semana5_formularioMDI
         }
 
        
-        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Ayuda ay = new Ayuda();
-            this.Hide();
-            ay.ShowDialog();
-            this.Show();
-        }
+       
 
-        private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void Principal_Load(object sender, EventArgs e)
         {
 
         }
 
-       
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            De acerca = new De();
+           
+            acerca.ShowDialog();
+            this.Show();
+        }
+
+        private void contactoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           Contacto con = new Contacto();
+            
+            con.ShowDialog();
+            this.Show();
+
+        }
     }
 }

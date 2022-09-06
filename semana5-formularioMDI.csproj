@@ -70,12 +70,6 @@
     <Compile Include="Institucional.Designer.cs">
       <DependentUpon>Institucional.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ayuda.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ayuda.Designer.cs">
-      <DependentUpon>Ayuda.cs</DependentUpon>
-    </Compile>
     <Compile Include="Consulta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,9 +101,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Institucional.resx">
       <DependentUpon>Institucional.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ayuda.resx">
-      <DependentUpon>Ayuda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Consulta.resx">
       <DependentUpon>Consulta.cs</DependentUpon>
@@ -205,6 +196,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registroo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facultadd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder-contat-us-10add-contact-4211837_115058.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

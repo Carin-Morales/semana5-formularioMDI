@@ -106,5 +106,10 @@ namespace semana5_formularioMDI
         {
             Close();
         }
+
+        private void textBoxDescription_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

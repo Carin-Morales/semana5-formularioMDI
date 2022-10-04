@@ -215,5 +215,11 @@
   <ItemGroup>
     <None Include="Resources\iconfinder-contat-us-10add-contact-4211837_115058.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

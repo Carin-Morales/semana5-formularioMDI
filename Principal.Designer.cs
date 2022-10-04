@@ -30,12 +30,6 @@ namespace semana5_formularioMDI
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alumnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.docenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,6 +40,12 @@ namespace semana5_formularioMDI
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contactoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,84 +60,9 @@ namespace semana5_formularioMDI
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(755, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1264, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(280, 47);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 42);
-            this.label1.TabIndex = 7;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
-            this.button5.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Image = global::semana5_formularioMDI.Properties.Resources.salire;
-            this.button5.Location = new System.Drawing.Point(28, 580);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(142, 114);
-            this.button5.TabIndex = 4;
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
-            this.button4.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Image = global::semana5_formularioMDI.Properties.Resources.consultat;
-            this.button4.Location = new System.Drawing.Point(28, 440);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(142, 114);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
-            this.button3.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Image = global::semana5_formularioMDI.Properties.Resources.bb;
-            this.button3.Location = new System.Drawing.Point(28, 308);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(142, 114);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
-            this.button2.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Image = global::semana5_formularioMDI.Properties.Resources.facultadd;
-            this.button2.Location = new System.Drawing.Point(28, 169);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(142, 122);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
-            this.button1.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Image = global::semana5_formularioMDI.Properties.Resources.registroo;
-            this.button1.Location = new System.Drawing.Point(28, 41);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 122);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // inicioToolStripMenuItem
             // 
@@ -154,7 +79,7 @@ namespace semana5_formularioMDI
             this.alumnoToolStripMenuItem.Image = global::semana5_formularioMDI.Properties.Resources.ordenador_portatil;
             this.alumnoToolStripMenuItem.Name = "alumnoToolStripMenuItem";
             this.alumnoToolStripMenuItem.RightToLeftAutoMirrorImage = true;
-            this.alumnoToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.alumnoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.alumnoToolStripMenuItem.Text = "Nuevo Ingreso";
             this.alumnoToolStripMenuItem.Click += new System.EventHandler(this.alumnoToolStripMenuItem_Click);
             // 
@@ -162,7 +87,7 @@ namespace semana5_formularioMDI
             // 
             this.docenteToolStripMenuItem.Image = global::semana5_formularioMDI.Properties.Resources.libro;
             this.docenteToolStripMenuItem.Name = "docenteToolStripMenuItem";
-            this.docenteToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.docenteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.docenteToolStripMenuItem.Text = "Carreras";
             this.docenteToolStripMenuItem.Click += new System.EventHandler(this.docenteToolStripMenuItem_Click);
             // 
@@ -208,7 +133,7 @@ namespace semana5_formularioMDI
             // 
             this.acercaDeToolStripMenuItem.BackgroundImage = global::semana5_formularioMDI.Properties.Resources.acerca_de;
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de ";
             this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
@@ -216,7 +141,7 @@ namespace semana5_formularioMDI
             // 
             this.contactoToolStripMenuItem.BackgroundImage = global::semana5_formularioMDI.Properties.Resources.iconfinder_contat_us_10add_contact_4211837_115058;
             this.contactoToolStripMenuItem.Name = "contactoToolStripMenuItem";
-            this.contactoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.contactoToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
             this.contactoToolStripMenuItem.Text = "Contacto";
             this.contactoToolStripMenuItem.Click += new System.EventHandler(this.contactoToolStripMenuItem_Click);
             // 
@@ -228,13 +153,88 @@ namespace semana5_formularioMDI
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(280, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 42);
+            this.label1.TabIndex = 7;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
+            this.button5.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Image = global::semana5_formularioMDI.Properties.Resources.salire;
+            this.button5.Location = new System.Drawing.Point(23, 277);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(212, 92);
+            this.button5.TabIndex = 4;
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
+            this.button4.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Image = global::semana5_formularioMDI.Properties.Resources.consultat;
+            this.button4.Location = new System.Drawing.Point(23, 390);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(212, 92);
+            this.button4.TabIndex = 3;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
+            this.button3.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Image = global::semana5_formularioMDI.Properties.Resources.bb;
+            this.button3.Location = new System.Drawing.Point(23, 502);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(212, 91);
+            this.button3.TabIndex = 2;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
+            this.button2.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Image = global::semana5_formularioMDI.Properties.Resources.facultadd;
+            this.button2.Location = new System.Drawing.Point(23, 162);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(212, 92);
+            this.button2.TabIndex = 1;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
+            this.button1.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Image = global::semana5_formularioMDI.Properties.Resources.registroo;
+            this.button1.Location = new System.Drawing.Point(23, 47);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(212, 92);
+            this.button1.TabIndex = 0;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(755, 749);
+            this.BackgroundImage = global::semana5_formularioMDI.Properties.Resources._9;
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -242,6 +242,7 @@ namespace semana5_formularioMDI
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
+            this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.Color.Black;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Principal";

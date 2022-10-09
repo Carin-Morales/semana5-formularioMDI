@@ -121,5 +121,15 @@ namespace semana5_formularioMDI
             this.Show();
 
         }
+
+        private void docentesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Docentes dc = new Docentes();
+
+           dc.ShowDialog();
+            this.Show();
+
+        }
     }
 }

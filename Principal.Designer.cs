@@ -46,6 +46,8 @@ namespace semana5_formularioMDI
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.docentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cuidadoDelMedioAmbienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,7 +70,8 @@ namespace semana5_formularioMDI
             // 
             this.inicioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.alumnoToolStripMenuItem,
-            this.docenteToolStripMenuItem});
+            this.docenteToolStripMenuItem,
+            this.docentesToolStripMenuItem});
             this.inicioToolStripMenuItem.Image = global::semana5_formularioMDI.Properties.Resources.folder;
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
             this.inicioToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
@@ -123,7 +126,8 @@ namespace semana5_formularioMDI
             this.ayudaToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.acercaDeToolStripMenuItem,
-            this.contactoToolStripMenuItem});
+            this.contactoToolStripMenuItem,
+            this.cuidadoDelMedioAmbienteToolStripMenuItem});
             this.ayudaToolStripMenuItem.Image = global::semana5_formularioMDI.Properties.Resources.ayudar;
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
@@ -166,7 +170,7 @@ namespace semana5_formularioMDI
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
-            this.button5.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Black;
             this.button5.Image = global::semana5_formularioMDI.Properties.Resources.salire;
             this.button5.Location = new System.Drawing.Point(23, 277);
@@ -179,7 +183,7 @@ namespace semana5_formularioMDI
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
-            this.button4.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Image = global::semana5_formularioMDI.Properties.Resources.consultat;
             this.button4.Location = new System.Drawing.Point(23, 390);
@@ -192,7 +196,7 @@ namespace semana5_formularioMDI
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
-            this.button3.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Image = global::semana5_formularioMDI.Properties.Resources.bb;
             this.button3.Location = new System.Drawing.Point(23, 502);
@@ -205,7 +209,7 @@ namespace semana5_formularioMDI
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
-            this.button2.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Image = global::semana5_formularioMDI.Properties.Resources.facultadd;
             this.button2.Location = new System.Drawing.Point(23, 162);
@@ -218,7 +222,7 @@ namespace semana5_formularioMDI
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(144)))), ((int)(((byte)(203)))));
-            this.button1.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Image = global::semana5_formularioMDI.Properties.Resources.registroo;
             this.button1.Location = new System.Drawing.Point(23, 47);
@@ -227,6 +231,19 @@ namespace semana5_formularioMDI
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // docentesToolStripMenuItem
+            // 
+            this.docentesToolStripMenuItem.Name = "docentesToolStripMenuItem";
+            this.docentesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.docentesToolStripMenuItem.Text = "Docentes";
+            this.docentesToolStripMenuItem.Click += new System.EventHandler(this.docentesToolStripMenuItem_Click);
+            // 
+            // cuidadoDelMedioAmbienteToolStripMenuItem
+            // 
+            this.cuidadoDelMedioAmbienteToolStripMenuItem.Name = "cuidadoDelMedioAmbienteToolStripMenuItem";
+            this.cuidadoDelMedioAmbienteToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
+            this.cuidadoDelMedioAmbienteToolStripMenuItem.Text = "Cuidado del medio ambiente";
             // 
             // Principal
             // 
@@ -276,6 +293,8 @@ namespace semana5_formularioMDI
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem contactoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem docentesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cuidadoDelMedioAmbienteToolStripMenuItem;
     }
 }
 
